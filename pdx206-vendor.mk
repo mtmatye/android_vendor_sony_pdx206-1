@@ -190,7 +190,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx206/proprietary/product/vendor_overlay/30/lib/modules/slg51000-regulator.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/slg51000-regulator.ko \
     vendor/sony/pdx206/proprietary/product/vendor_overlay/30/lib/modules/sony_camera.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/sony_camera.ko \
     vendor/sony/pdx206/proprietary/product/vendor_overlay/30/lib/modules/tcs3490.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/tcs3490.ko \
-    vendor/sony/pdx206/proprietary/product/vendor_overlay/30/lib/modules/texfat.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/texfat.ko
+    vendor/sony/pdx206/proprietary/product/vendor_overlay/30/lib/modules/texfat.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/texfat.ko \
+    vendor/sony/pdx206/proprietary/lib64/vendor.somc.hardware.swiqi@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.somc.hardware.swiqi@1.0.so \
+    vendor/sony/pdx206/proprietary/lib/vendor.somc.hardware.swiqi@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.swiqi@1.0.so
 
 PRODUCT_PACKAGES += \
     com.quicinc.cne.api@1.0 \
@@ -209,4 +211,5 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     WfdCommon \
-    com.android.hotwordenrollment.common.util
+    com.android.hotwordenrollment.common.util \
+    vendor.somc.hardware.swiqi-V1.0-java
